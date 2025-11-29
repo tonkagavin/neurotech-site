@@ -14,18 +14,18 @@ export function Projects({ onNavigate }: ProjectsProps) {
         "Our flagship project developing a specialized Arduino-based switch system that enables children with severe disabilities to communicate their needs through simple, accessible button presses.",
       image: "https://images.unsplash.com/photo-1634452021892-eaabbdc4a0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcmR1aW5vJTIwZWxlY3Ryb25pY3MlMjBoYXJkd2FyZXxlbnwxfHx8fDE3NjM2MDA0NTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       status: "Active",
-      team: "8 members",
-      started: "January 2024",
+      team: "10 members",
+      started: "October 2025",
     },
     {
-      id: "project-2",
-      title: "Future Project 2",
+      id: "eeg-headset",
+      title: "EEG Headset for Reading Brain Signals for Communication",
       description:
         "An upcoming initiative focused on expanding our assistive technology portfolio. More details coming soon as we develop this exciting new solution.",
-      image: "https://images.unsplash.com/photo-1760920248606-4a151ef75cce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc3Npc3RpdmUlMjB0ZWNobm9sb2d5JTIwZGV2aWNlfGVufDF8fHx8MTc2MzYwMDQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://plus.unsplash.com/premium_photo-1681426643645-77d6b5130b50?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       status: "Planning",
       team: "4 members",
-      started: "Coming 2025",
+      started: "November 2025",
     },
   ];
 

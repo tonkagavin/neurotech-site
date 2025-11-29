@@ -29,14 +29,14 @@ export function AboutUs() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-3xl md:text-4xl">About NC State Neurotech</h2>
+          <h2 className="mb-4 text-3xl md:text-4xl">About Neurotech at NC State</h2>
           <div className="mx-auto h-1 w-24 bg-primary"></div>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div>
             <Image
-              src="/images/about/girls.jpg"
+              src="/images/about/girls.webp"
               alt="NC State Neurotech team members"
               className="rounded-lg shadow-2xl"
             />
@@ -45,7 +45,7 @@ export function AboutUs() {
           <div>
             <h3 className="mb-6">Who We Are</h3>
             <p className="mb-4 text-muted-foreground">
-              NC State Neurotech is a student-led organization at North Carolina State University 
+              Neurotech at NC State is a student-led organization at North Carolina State University 
               dedicated to developing assistive technology solutions for individuals with severe 
               mental and physical disabilities.
             </p>

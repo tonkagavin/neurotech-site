@@ -40,7 +40,7 @@ export function MeetTheTeam() {
       name: "Gavin McKay",
       role: "Software Lead",
       image: "/images/team/gabinkerton.webp",
-      bio: "Gavin is a junior in Computer Science minoring in Philosophy and Economics. He is the head of software development team, leading projects for game development and assitive communicative technologies for the children of Hilltop Home. (I also made the website!)",
+      bio: "Gavin is a junior in Computer Science minoring in Philosophy and Economics. He is the head of software development team, leading and designing assitive communicative software for the children of Hilltop Home. (I also made the website!)",
       email: "gjmckay@ncsu.edu",
       linkedin: "gjmckay"
     },
@@ -48,7 +48,7 @@ export function MeetTheTeam() {
     {
       name: "Dr. Alper Bozkurt",
       role: "Faculty Advisor",
-      image: "/images/team/boz.jpg",
+      image: "/images/team/boz.webp",
       bio: "Dr. Bozkurt serves as the Neurotech club advisor and guides us in project direction and idea development.",
       email: "aybozkur@ncsu.edu",
       linkedin: "alper-bozkurt-ncsu"
@@ -79,7 +79,6 @@ export function MeetTheTeam() {
                   src={member.image}
                   alt={member.name}
                   className="h-full w-full object-cover"
-                  fallbackSrc={`https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face&auto=format&q=80`}
                 />
               </div>
               <div className="p-6">
@@ -123,7 +122,7 @@ export function MeetTheTeam() {
             <p className="mb-6 text-muted-foreground">
               We're always looking for passionate students who want to make a difference. 
               Whether you're interested in engineering, design, research, or community outreach, 
-              there's a place for you in NC State Neurotech.
+              there's a place for you in Neurotech at NC State.
             </p>
             <a
               href="mailto:contact@neurotech-org@ncsu.edu"

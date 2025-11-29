@@ -28,7 +28,7 @@ export function Hero({ onNavigate }: HeroProps) {
           </h1>
           
           <p className="mb-8 text-lg md:text-xl text-gray-200">
-            NC State Neurotech is dedicated to helping severely mentally and physically 
+            Neurotech at NC State is dedicated to helping severely mentally and physically 
             disabled children communicate with their caretakers through innovative assistive technology.
           </p>
           

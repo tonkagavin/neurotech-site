@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { AboutUs } from "./components/AboutUs";
@@ -11,11 +11,28 @@ import { Donors } from "./components/Donors";
 import { MeetTheTeam } from "./components/MeetTheTeam";
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("home");
+  const [currentPage, setCurrentPage] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("page") || "home";
+  });
+
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      setCurrentPage(params.get("page") || "home");
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
 
   const handleNavigate = (page: string) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: "smooth" });
+
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set("page", page);
+    window.history.pushState({}, "", newUrl);
   };
 
   const renderPage = () => {
@@ -37,13 +54,17 @@ export default function App() {
       case "project-arduino-switch":
         return (
           <ProjectDetail
+            key="arduino-switch"
             projectId="arduino-switch"
             onNavigate={handleNavigate}
           />
         );
-      case "project-project-2":
+      case "project-eeg-headset":
         return (
-          <ProjectDetail projectId="project-2" onNavigate={handleNavigate} />
+          <ProjectDetail 
+          key="eeg-headset"
+          projectId="eeg-headset" 
+          onNavigate={handleNavigate} />
         );
       case "contact":
         return <Contact />;
@@ -68,7 +89,7 @@ export default function App() {
         <div className="container mx-auto px-4 py-12">
           <div className="grid gap-8 md:grid-cols-3">
             <div>
-              <h4 className="mb-4 text-white">NC State Neurotech</h4>
+              <h4 className="mb-4 text-white">Neurotech at NC State</h4>
               <p className="text-sm text-white/80">
                 Empowering communication through innovative assistive technology
                 for children with disabilities.
@@ -114,7 +135,7 @@ export default function App() {
             </div>
           </div>
           <div className="mt-8 border-t border-white/20 pt-8 text-center text-sm text-white/60">
-            <p>© 2025 NC State Neurotech. All rights reserved.</p>
+            <p>© 2025 Neurotech at NC State. All rights reserved.</p>
           </div>
         </div>
       </footer>

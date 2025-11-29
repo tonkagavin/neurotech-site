@@ -15,7 +15,7 @@ export function Header({ onNavigate, currentPage }: HeaderProps) {
 
   const projects = [
     { id: "arduino-switch", name: "Arduino Communication Switch" },
-    { id: "project-2", name: "Future Project 2" },
+    { id: "eeg-headset", name: "EEG Headset" },
   ];
 
   // Close dropdowns when clicking outside
@@ -50,7 +50,7 @@ export function Header({ onNavigate, currentPage }: HeaderProps) {
               className="h-10 w-auto object-contain bg-white rounded-lg px-2"
               fallbackSrc="https://images.unsplash.com/photo-1744324472890-d4cac1650e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXVyb3RlY2glMjBicmFpbiUyMHRlY2hub2xvZ3klMjBsb2dvfGVufDF8fHx8MTc2MzYwMTc1OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
             />
-            <span className="hidden sm:inline text-white">NC State Neurotech</span>
+            <span className="hidden sm:inline text-white">Neurotech at NC State</span>
           </button>
 
           {/* Desktop Navigation */}
