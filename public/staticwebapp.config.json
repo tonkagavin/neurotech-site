@@ -3,6 +3,7 @@
     "rewrite": "/index.html"
   },
   "mimeTypes": {
-    ".json": "text/json"
+    ".webp": "image/webp",
+    ".json": "application/json"
   }
 }

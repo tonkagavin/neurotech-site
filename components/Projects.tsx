@@ -14,7 +14,7 @@ export function Projects({ onNavigate }: ProjectsProps) {
         "Our flagship project developing a specialized Arduino-based switch system that enables children with severe disabilities to communicate their needs through simple, accessible button presses.",
       image: "https://images.unsplash.com/photo-1634452021892-eaabbdc4a0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcmR1aW5vJTIwZWxlY3Ryb25pY3MlMjBoYXJkd2FyZXxlbnwxfHx8fDE3NjM2MDA0NTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       status: "Active",
-      team: "10 members",
+      team: "5 members",
       started: "October 2025",
     },
     {
@@ -24,7 +24,7 @@ export function Projects({ onNavigate }: ProjectsProps) {
         "An upcoming initiative focused on expanding our assistive technology portfolio. More details coming soon as we develop this exciting new solution.",
       image: "https://plus.unsplash.com/premium_photo-1681426643645-77d6b5130b50?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       status: "Planning",
-      team: "4 members",
+      team: "8 members",
       started: "November 2025",
     },
   ];
