@@ -131,7 +131,7 @@ export function Donate({ onNavigate }: DonateProps) {
             <div className="grid md:grid-cols-2">
               <div className="relative flex items-center justify-center p-4 md:p-8">
                 <Image
-                  src="/images/donate/studious.jpg"
+                  src="/images/donate/studious.webp"
                   alt="Community support"
                   className="max-w-md w-full max-h-64 h-auto rounded-lg object-contain shadow-lg"
                 />

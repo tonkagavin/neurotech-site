@@ -15,7 +15,7 @@ export function MeetTheTeam() {
     {
       name: "Rayan Rao",
       role: "Cofounder, Co-President, R&D Lead",
-      image: "/images/team/obama.jpg",
+      image: "/images/team/obama.webp",
       bio: "Rayan is a junior in Biomedical Engineering and the head of the R&D team. He is focusing on developing novel designs for affordable EEG headsets and adaptive switches to implement in Hilltop Home.",
       email: "rsrao2@ncsu.edu",
       linkedin: "rayan-rao-4737b421a/"
@@ -23,7 +23,7 @@ export function MeetTheTeam() {
     {
       name: "Armaan Raina",
       role: "Cofounder, Co-President, Algorithms Lead",
-      image: "/images/team/armaani.jpg",
+      image: "/images/team/armaani.webp",
       bio: "Armaan is a junior double majoring in Computer Science and Statistics. He cofounded the club alongside Rayan and Will, mainly focusing on decoding algorithms, general device design, and grant writing.",
       email: "araina3@ncsu.edu",
       linkedin: "armaanraina/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BoPmmxYDiSDWlojvXTN1tEQ%3D%3D"
@@ -31,7 +31,7 @@ export function MeetTheTeam() {
     {
       name: "Will Sammons",
       role: "Cofounder, Treasurer, Hardware Lead",
-      image: "/images/team/salmon.jpg",
+      image: "/images/team/salmon.webp",
       bio: "Will is a Junior and is in the Electrical and Computer Engineering Dual Degree program. He is a cofounder and head of hardware for Neurotech, and leads the development and utilization of the technology utilized for the club.",
       email: "twsammon@ncsu.edu",
       linkedin: "will-sammons-7196a42b5/"
@@ -39,7 +39,7 @@ export function MeetTheTeam() {
     {
       name: "Gavin McKay",
       role: "Software Lead",
-      image: "/images/team/gabinkerton.png",
+      image: "/images/team/gabinkerton.webp",
       bio: "Gavin is a junior in Computer Science minoring in Philosophy and Economics. He is the head of software development team, leading projects for game development and assitive communicative technologies for the children of Hilltop Home. (I also made the website!)",
       email: "gjmckay@ncsu.edu",
       linkedin: "gjmckay"
@@ -126,7 +126,7 @@ export function MeetTheTeam() {
               there's a place for you in NC State Neurotech.
             </p>
             <a
-              href="mailto:contact@ncstateneurotech.org"
+              href="mailto:contact@neurotech-org@ncsu.edu"
               className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
             >
               Get in Touch

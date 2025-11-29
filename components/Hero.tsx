@@ -10,7 +10,7 @@ export function Hero({ onNavigate }: HeroProps) {
     <section className="relative overflow-hidden bg-gradient-to-b from-black to-gray-900">
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/images/about/team.jpg"
+          src="/images/hero/team.webp"
           alt="Children learning with technology"
           className="h-full w-full object-cover"
           fallbackSrc="https://images.unsplash.com/photo-1759646827278-27c5733e0cee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMGxlYXJuaW5nJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM1NTIyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"

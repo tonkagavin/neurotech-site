@@ -36,7 +36,7 @@ export function Mission() {
           <h2 className="mb-4 text-3xl md:text-4xl">Our Mission</h2>
           <div className="mb-6 flex justify-center">
             <Image
-              src="/images/team/trio.jpg"
+              src="/images/team/trio.webp"
               alt="Founding trio"            
               className="max-w-md w-full h-auto rounded-lg object-cover shadow-lg"
             />
