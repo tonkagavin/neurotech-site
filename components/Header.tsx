@@ -44,13 +44,14 @@ export function Header({ onNavigate, currentPage }: HeaderProps) {
             onClick={() => onNavigate("home")}
             className="flex items-center gap-3 transition-opacity hover:opacity-80"
           >
-            <Image
-              src="/images/logo/logo.png"
-              alt="NC State Neurotech"
-              className="h-10 w-auto object-contain bg-white rounded-lg px-2"
-              fallbackSrc="https://images.unsplash.com/photo-1744324472890-d4cac1650e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXVyb3RlY2glMjBicmFpbiUyMHRlY2hub2xvZ3klMjBsb2dvfGVufDF8fHx8MTc2MzYwMTc1OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            />
-            <span className="hidden sm:inline text-white">Neurotech at NC State</span>
+            <div className="h-20 w-20 rounded-full overflow-hidden flex items-center justify-center">
+              <Image
+                src="/images/logo/logo.webp"
+                alt="NC State Neurotech"
+                className="h-full w-full object-contain"
+                fallbackSrc="https://images.unsplash.com/photo-1744324472890-d4cac1650e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXVyb3RlY2glMjBicmFpbiUyMHRlY2hub2xvZ3klMjBsb2dvfGVufDF8fHx8MTc2MzYwMTc1OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              />
+            </div>
           </button>
 
           {/* Desktop Navigation */}
